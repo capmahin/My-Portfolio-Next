@@ -106,7 +106,7 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={() => setNavigation(false)}
-                className="p-3 cursor-pointer"
+                className="p-3 cursor-pointer hover:scale-105 tracking-wider"
               >
                 <FaTimes size={30} />
               </div>
@@ -129,16 +129,16 @@ const Navbar = () => {
 
             <div>
               <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
-                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
+                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer hover:scale-105 tracking-wider">
                   <FaLinkedin size={25} />
                 </div>
-                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
+                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer hover:scale-105 tracking-wider">
                   <FaTwitter size={25} />
                 </div>
-                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
+                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer hover:scale-105 tracking-wider">
                   <FaFacebook size={25} />
                 </div>
-                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer">
+                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer hover:scale-105 tracking-wider">
                   <FaGithub size={25} />
                 </div>
               </div>

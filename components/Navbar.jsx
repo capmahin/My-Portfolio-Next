@@ -47,8 +47,8 @@ const Navbar = () => {
 
   return (
     <div
-      className={`w-full h-20 z-10 fixed bg-black text-white duration-300 ease-in ${
-        pageScroll && "bg-white text-black"
+      className={`w-full h-20 z-10 fixed bg-black bg-white text-black duration-300 ease-in ${
+        pageScroll && "bg-black text-[#fff]"
       }`}
     >
       <div className="flex justify-between items-center w-full h-full max-w-screen-xl mx-auto p-4">

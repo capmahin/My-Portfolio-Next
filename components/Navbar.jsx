@@ -113,7 +113,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="mt-24 flex flex-col h-fit gap-20">
+          <div className="mt-1 flex flex-col h-fit gap-16">
             <ul className="uppercase">
               {links.map(({ id, link }) => (
                 <Link key={id} href={`/#${link}`}>
@@ -129,16 +129,16 @@ const Navbar = () => {
 
             <div>
               <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
-                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer hover:scale-105 tracking-wider">
+                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-2 cursor-pointer hover:scale-105 tracking-wider">
                   <FaLinkedin size={25} />
                 </div>
-                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer hover:scale-105 tracking-wider">
+                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-2 cursor-pointer hover:scale-105 tracking-wider">
                   <FaTwitter size={25} />
                 </div>
-                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer hover:scale-105 tracking-wider">
+                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-2  cursor-pointer hover:scale-105 tracking-wider">
                   <FaFacebook size={25} />
                 </div>
-                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-3 cursor-pointer hover:scale-105 tracking-wider">
+                <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-2 cursor-pointer hover:scale-105 tracking-wider">
                   <FaGithub size={25} />
                 </div>
               </div>

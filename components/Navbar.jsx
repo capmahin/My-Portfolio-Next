@@ -54,7 +54,7 @@ const Navbar = () => {
       <div className="flex justify-between items-center w-full h-full max-w-screen-xl mx-auto p-4">
         <Link href="/#home">
           <h1 className="text-3xl lg:text-4xl font-bold uppercase underline underline-offset-2 tracking-wider cursor-pointer">
-            yash
+           Mahin
           </h1>
         </Link>
 

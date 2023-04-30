@@ -99,7 +99,7 @@ const Navbar = () => {
               <Link href="/#home">
                 <h2
                   onClick={() => setNavigation(false)}
-                  className="text-3xl font-bold  underline underline-offset-2 tracking-wider cursor-pointer font-signature"
+                  className="text-3xl font-bold  underline underline-offset-2 tracking-wider cursor-pointer font-signature hover:scale-105 tracking-wider"
                 >
                  Mahin
                 </h2>
@@ -119,7 +119,7 @@ const Navbar = () => {
                 <Link key={id} href={`/#${link}`}>
                   <li
                     onClick={() => setNavigation(false)}
-                    className="py-4 text-2xl tracking-wider cursor-pointer"
+                    className="py-4 text-2xl tracking-wider cursor-pointer "
                   >
                     {link}
                   </li>

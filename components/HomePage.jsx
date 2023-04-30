@@ -17,9 +17,9 @@ const HomePage = () => {
         </h1>
 
         <p className="text-gray-600 text-xl max-w-sm mx-auto p-2">
-          I have 8 years of experience building and desgining software.
+          I have 2 years of experience building and designing software.
           Currently, I love to work on web application using technologies like
-          React, Tailwind, Next JS and GraphQL.
+          React, Tailwind, Next JS and Node, BootStrap.
         </p>
 
         <Link href="/#me">

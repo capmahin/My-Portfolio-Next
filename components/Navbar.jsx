@@ -47,13 +47,13 @@ const Navbar = () => {
 
   return (
     <div
-      className={`w-full h-20 z-10 fixed bg-white text-black duration-300 ease-in ${
-        pageScroll && "bg-black text-[#fff]"
+      className={`w-full h-20 z-10 fixed bg-black text-white duration-300 ease-in ${
+        pageScroll && "bg-white text-black"
       }`}
     >
       <div className="flex justify-between items-center w-full h-full max-w-screen-xl mx-auto p-4">
         <Link href="/#home">
-          <h1 className="text-3xl lg:text-4xl font-bold uppercase underline underline-offset-2 tracking-wider cursor-pointer">
+          <h1 className="text-3xl lg:text-4xl font-bold underline underline-offset-2 tracking-wider cursor-pointer font-signature">
            Mahin
           </h1>
         </Link>
@@ -99,7 +99,7 @@ const Navbar = () => {
               <Link href="/#home">
                 <h2
                   onClick={() => setNavigation(false)}
-                  className="text-3xl font-bold uppercase underline underline-offset-2 tracking-wider cursor-pointer"
+                  className="text-3xl font-bold  underline underline-offset-2 tracking-wider cursor-pointer font-signature"
                 >
                  Mahin
                 </h2>

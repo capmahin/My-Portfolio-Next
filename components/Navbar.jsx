@@ -47,7 +47,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`w-full h-20 z-10 fixed bg-black bg-white text-black duration-300 ease-in ${
+      className={`w-full h-20 z-10 fixed  bg-white text-black duration-300 ease-in ${
         pageScroll && "bg-black text-[#fff]"
       }`}
     >

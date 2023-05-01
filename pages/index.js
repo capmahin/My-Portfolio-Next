@@ -1,6 +1,7 @@
 import HomePage from "../components/HomePage";
 import Portfolio from "../components/Portfolio";
 import Experience from "../components/Experience";
+import Contact from "../components/Contact";
 import Me from "../components/Me";
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
     <Portfolio />
     <Experience />
     <Me />
+    <Contact />
    </div>
   )
 }

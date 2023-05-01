@@ -17,7 +17,7 @@ const Contact = () => {
             <Image
               src={contactus}
               alt="man with laptop"
-              className="rounded-xl"
+              className="rounded-xl hover:scale-105 duration-200"
             />
             <p className="pt-2 pb-8">
               I am open to talk regarding freelancing or full-time
@@ -49,7 +49,7 @@ const Contact = () => {
                 method="POST"
               >
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full py-2">
-                  <div className="flex flex-col">
+                  <div className="flex flex-col col-span-2">
                     <label className="capitalize text-sm py-2 text-slate-600 font-light">
                       name
                     </label>

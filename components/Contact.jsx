@@ -45,7 +45,7 @@ const Contact = () => {
           <div className="w-full md:w-1/2 h-full rounded-xl p-4">
             <div className="p-4 text-left">
               <form
-                action="https://getform.io/f/357378e6-dce8-451c-8d15-226c219dc76a"
+                action="https://getform.io/f/ff6cbc46-b8e2-4cd1-8870-874aaea6f488"
                 method="POST"
               >
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full py-2">

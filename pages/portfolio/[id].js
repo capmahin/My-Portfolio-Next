@@ -64,13 +64,13 @@ const OnePortfolio = ({ portfolio: { title, imageSrc } }) => {
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-8 flex flex-col">
         <div className="flex">
           <Link href="/portfolio">
-            <div className="flex items-center justify-center my-8 text-indigo-500 font-bold capitalize cursor-pointer">
+            <div className="flex items-center justify-center my-8 text-black font-bold capitalize cursor-pointer">
               <BiChevronLeft size={25} /> back
             </div>
           </Link>
         </div>
 
-        <h1 className="capitalize text-4xl mt-2 mb-8 text-center md:text-left font-bold text-blue-500 tracking-wider">
+        <h1 className="capitalize text-4xl mt-2 mb-8 text-center md:text-left font-bold text-black tracking-wider font-signature">
           {title}
         </h1>
 
@@ -78,7 +78,7 @@ const OnePortfolio = ({ portfolio: { title, imageSrc } }) => {
           <Image src={imageSrc} alt="bla" layout="fill" objectFit="cover" />
         </div>
 
-        <h2 className="text-center md:text-left my-4 text-2xl font-bold">
+        <h2 className="text-center md:text-left my-4 text-2xl font-bold font-signature">
           Description
         </h2>
 
@@ -96,7 +96,7 @@ const OnePortfolio = ({ portfolio: { title, imageSrc } }) => {
 
         <div className="flex items-center justify-center gap-10">
           <Link href="/">
-            <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
+            <div className="group flex items-center justify-center my-8 bg-black text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
               demo
               <span className="duration-200 ease-in">
                 <AiOutlineCaretRight size={18} className="ml-2" />
@@ -105,7 +105,7 @@ const OnePortfolio = ({ portfolio: { title, imageSrc } }) => {
           </Link>
 
           <Link href="https://github.com/capmahin">
-            <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
+            <div className="group flex items-center justify-center my-8 bg-black text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
               my portfolio
               <span className="duration-200 ease-in">
                 <FaGithub size={18} className="ml-2" />

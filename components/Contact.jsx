@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 import contactus from "../public/assets/contact-us.jpg";
 import { FaFacebook, FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
@@ -26,18 +27,27 @@ const Contact = () => {
             </p>
 
             <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
+              <Link href="https://www.linkedin.com/in/mahin-ul-huque-mridha-7a26b5194/">
               <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer">
                 <FaLinkedin size={25} />
               </div>
+              </Link>
+              <Link href="https://twitter.com/mahinmridha2">
               <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer">
                 <FaTwitter size={25} />
               </div>
+              </Link>
+              <Link href="https://www.facebook.com/mahin.mridha.752/">
               <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer">
                 <FaFacebook size={25} />
               </div>
+              </Link>
+              <Link href="https://github.com/capmahin">
               <div className="flex items-center justify-center rounded-full shadow-md shadow-blue-500 hover:scale-105 duration-200 p-3 cursor-pointer">
-                <FaGithub size={25} />
+                
+                <FaGithub  size={25} />
               </div>
+              </Link>
             </div>
           </div>
 

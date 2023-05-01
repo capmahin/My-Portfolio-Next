@@ -2,10 +2,10 @@ import React from "react";
 
 import { MdExpandMore } from "react-icons/md";
 
-import installNode from "../public/assets/portfolio/installNode.jpg";
-import reactParallax from "../public/assets/portfolio/reactParallax.jpg";
-import usestate from "../public/assets/portfolio/usestate.jpg";
-import reactWeather from "../public/assets/portfolio/reactWeather.jpg";
+import LanguageFixer from "../public/assets/portfolio/Language Fixer.png";
+import Ecommerce from "../public/assets/portfolio/E-commerce.png";
+import BikeManufacture from "../public/assets/portfolio/Bike-Manufacture.png";
+import Tempareture from "../public/assets/portfolio/Tempareture.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -13,27 +13,27 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      title: "react weather app",
-      imageSrc: reactWeather,
-      url: "react-weather",
+      title: "Ecommerce app",
+      imageSrc: Ecommerce,
+      url: "E-commercer",
     },
     {
       id: 2,
-      title: "install node",
-      imageSrc: installNode,
-      url: "install-node",
+      title: "Language Fixer",
+      imageSrc: LanguageFixer,
+      url: "Language-Fixer",
     },
     {
       id: 3,
-      title: "use state explained",
-      imageSrc: usestate,
-      url: "use-state-hook",
+      title: "Bike Manufacture Center",
+      imageSrc: BikeManufacture,
+      url: "Bike-Manufacture",
     },
     {
       id: 4,
-      title: "react parallax scroll",
-      imageSrc: reactParallax,
-      url: "react-parallax",
+      title: "Tempareture",
+      imageSrc: Tempareture,
+      url: "Tempareture",
     },
   ];
 

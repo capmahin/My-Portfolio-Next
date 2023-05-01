@@ -16,24 +16,28 @@ const portfolios = [
         title: "Ecommerce app",
         imageSrc: Ecommerce,
         url: "E-commercer",
+        href:"https://production-eccha-nir.vercel.app/",
       },
       {
         id: 2,
         title: "Language Fixer",
         imageSrc: LanguageFixer,
         url: "Language-Fixer",
+        href:"https://language-fixer.vercel.app/",
       },
       {
         id: 3,
         title: "Bike Manufacture Center",
         imageSrc: BikeManufacture,
         url: "Bike-Manufacture",
+        href:"https://bike-manufacture-center.vercel.app/",
       },
       {
         id: 4,
         title: "Tempareture",
         imageSrc: Tempareture,
         url: "Tempareture",
+        href:"https://capmahin.github.io/City-Tempareture/",
       },
 ];
 
@@ -58,7 +62,7 @@ export async function getStaticProps({ params }) {
   };
 }
 
-const OnePortfolio = ({ portfolio: { title, imageSrc } }) => {
+const OnePortfolio = ({ portfolio: { title, imageSrc , href } }) => {
   return (
     <div className="h-fit w-full text-center">
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-8 flex flex-col">
@@ -96,7 +100,7 @@ const OnePortfolio = ({ portfolio: { title, imageSrc } }) => {
         </p>
 
         <div className="flex items-center justify-center gap-10">
-          <Link href="/">
+          <Link href={href}>
             <div className="group flex items-center justify-center my-8 bg-black text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
               demo
               <span className="duration-200 ease-in">

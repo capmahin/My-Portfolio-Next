@@ -129,18 +129,26 @@ const Navbar = () => {
 
             <div>
               <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">
+              <Link href="https://www.linkedin.com/in/mahin-ul-huque-mridha-7a26b5194/">
                 <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-2 cursor-pointer hover:scale-105 tracking-wider">
                   <FaLinkedin size={25} />
                 </div>
+                </Link>
+                <Link href="https://twitter.com/mahinmridha2">
                 <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-2 cursor-pointer hover:scale-105 tracking-wider">
                   <FaTwitter size={25} />
                 </div>
+                </Link>
+                <Link href="https://www.facebook.com/mahin.mridha.752/">
                 <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-2  cursor-pointer hover:scale-105 tracking-wider">
                   <FaFacebook size={25} />
                 </div>
+                </Link>
+                <Link href="https://github.com/capmahin">
                 <div className="flex items-center justify-center rounded-full shadow-md shadow-white p-2 cursor-pointer hover:scale-105 tracking-wider">
                   <FaGithub size={25} />
                 </div>
+                </Link>
               </div>
             </div>
           </div>

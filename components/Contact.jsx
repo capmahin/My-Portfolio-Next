@@ -8,8 +8,8 @@ const Contact = () => {
   return (
     <div id="contact" className="w-full">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
-        <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold">
-          contact
+        <h2 className="text-5xl md:text-7xl tracking-wider  text-black font-bold font-signature">
+          Contact
         </h2>
 
         <div className="flex flex-col md:flex-row gap-8 shadow-xl shadow-blue-300 bg-white mt-4">
@@ -93,7 +93,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex items-center justify-center">
-                  <button className="my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer hover:scale-105 duration-200">
+                  <button className="my-8 bg-black text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer hover:scale-105 duration-200">
                     send message
                   </button>
                 </div>

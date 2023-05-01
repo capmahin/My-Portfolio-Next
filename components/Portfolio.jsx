@@ -40,7 +40,7 @@ const Portfolio = () => {
   return (
     <div id="portfolio" className="w-full">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
-        <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold">
+        <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-black font-bold font-signature">
           portfolio
         </h2>
         <p className="py-4 max-w-lg">
@@ -69,7 +69,7 @@ const Portfolio = () => {
 
         <div className="flex items-center justify-center">
           <Link href="/portfolio">
-            <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
+            <div className="group flex items-center justify-center my-8 bg-black text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
               all projects
               <span className="-rotate-90 duration-100 ease-in group-hover:translate-x-5">
                 <MdExpandMore size={25} />

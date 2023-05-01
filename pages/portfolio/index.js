@@ -44,8 +44,8 @@ const PortfoliosRoute = ({ portfolios }) => {
   return (
     <div id="portfolio" className="w-full">
       <div className="max-w-screen-xl mx-auto pt-24 p-4 text-center md:text-left">
-        <h2 className="text-5xl md:text-7xl tracking-wider uppercase text-blue-500 font-bold pb-16">
-          portfolio
+        <h2 className="text-5xl md:text-7xl tracking-wider  text-black font-bold font-signature pb-16">
+          Portfolio
         </h2>
 
         <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-8">

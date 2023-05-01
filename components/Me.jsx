@@ -36,7 +36,7 @@ const Me = () => {
         </div>
 
         <div className="flex items-center justify-center gap-10">
-          <Link href="/public/resume.pdf" download={true}>
+          <Link href="https://drive.google.com/file/d/1OiVlH1pXu46IFJ-5C7CrfBFE_pWYqcYQ/view?usp=sharing" download={true}>
             <div className="group flex items-center justify-center my-8 bg-black text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
               resume
               <span className="-rotate-90 duration-100 ease-in group-hover:rotate-0">

@@ -104,7 +104,7 @@ const OnePortfolio = ({ portfolio: { title, imageSrc } }) => {
             </div>
           </Link>
 
-          <Link href="https://github.com/theyashpatel">
+          <Link href="https://github.com/capmahin">
             <div className="group flex items-center justify-center my-8 bg-blue-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
               my portfolio
               <span className="duration-200 ease-in">

@@ -48,7 +48,7 @@ const Contact = () => {
                 action="https://getform.io/f/357378e6-dce8-451c-8d15-226c219dc76a"
                 method="POST"
               >
-                <div className="grid md:grid-cols-2 gap-4 w-full py-2">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label className="capitalize text-sm py-2 text-slate-600 font-light">
                       name

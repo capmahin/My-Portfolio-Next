@@ -59,7 +59,7 @@ const Contact = () => {
                       className="border-2 rounded-lg p-3 flex focus:outline-none border-blue-200"
                     />
                   </div>
-                  <div className="flex flex-col">
+                  <div className="flex flex-col col-span-2">
                     <label className="capitalize text-sm py-2 text-slate-600 font-light">
                       phone
                     </label>

@@ -74,7 +74,7 @@ const OnePortfolio = ({ portfolio: { title, imageSrc } }) => {
           {title}
         </h1>
 
-        <div className="relative w-96 h-56 mx-auto overflow-hidden my-8">
+        <div className="relative w-80 h-56 mx-auto overflow-hidden my-8">
           <Image src={imageSrc} alt="bla" layout="fill" objectFit="cover" />
         </div>
 
